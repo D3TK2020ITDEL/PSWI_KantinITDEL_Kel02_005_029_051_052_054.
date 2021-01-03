@@ -1,0 +1,13 @@
+.container3{
+    width: 80%;
+    margin: auto; 
+    overflow: hidden;
+}
+.container3 .img-circle{
+    width: 90px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+  
+ 

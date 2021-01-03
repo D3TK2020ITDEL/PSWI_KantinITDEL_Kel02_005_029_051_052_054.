@@ -1,0 +1,26 @@
+
+#portfolio .portfolio-item {
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+  #portfolio .portfolio-item h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+  #portfolio .portfolio-item img {
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+    width: 100%;
+  }
+  body{
+    background-image:linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(../Gambar/kantin3.jpg);
+  }
+  .gambar table{
+      background-color: rgba(170, 21, 110, 0.1);
+  }

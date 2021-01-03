@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login</title>
+    <link rel="shortcut icon" href="Gambar/del.jpg">
+  </head>
+  <body><br>
+      
+    <div class="container">
+        <center><img src="Gambar/del.jpg" width="90px"></center>
+        <h2 class="text-center">Login</h2>
+        <hr>
+
+        <form>
+            <div class="form-group">
+                <label>Nama</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fas fa-user"></i></div>
+                    </div>
+                <input type="text" id="nama" class="form-control" placeholder="Masukkan Nama"></div>
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fas fa-unlock-alt"></i></div>
+                    </div>
+                <input type="password" id="pass" class="form-control" placeholder="Masukkan Password"></div>
+            </div>
+            <button type="submit" class="btn btn-primary"  onclick="masukAkun();">MASUK</a></button>
+            <button type="reset" class="btn btn-danger">HAPUS</button>
+        </form>
+    </div><br><br><br><br><br><br>
+
+    <script>
+        function masukAkun(){
+            var Username = document.getElementById('nama').value;
+            var Password = document.getElementById('pass').value;
+            if( Username == "boby" && Password == "boby"){
+                alert("Selamat anda berhasil login");
+                window.open('home.html')    
+            }
+            else {
+                alert("Tolong isi data dengan benar") 
+            } 
+        }
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

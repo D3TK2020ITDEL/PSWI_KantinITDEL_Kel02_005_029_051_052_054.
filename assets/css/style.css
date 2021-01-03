@@ -1,0 +1,75 @@
+body {
+    font-family: "Monstserrat", 'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#topbar {
+    background-color: #15477a;
+}
+
+/*css untuk header */
+header{
+    padding: 30px;
+}
+
+.brand{
+    display: flex;
+}
+
+.brand img{
+    margin-right: 20px;
+}
+
+.brand .brand-name h1{
+    font-size: 25px;
+    color: #15477a;
+    text-transform: uppercase;
+}
+
+.brand .brand-name h3{
+    font-size: 20px;
+    font-family: Raleway, 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:  rebeccapurple;
+}
+
+/* css untuk slider hero area */
+
+#hero-area{
+    position: relative;
+}
+
+.slider-item-content{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+
+/*css untuk section lama*/
+
+#lama{
+    margin: 60px;
+}
+#lama h1
+#lama h1{
+    color: #15477a;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#lama h3{
+    color: aqua;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+#lama p{
+    font-size: 14px;
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+}

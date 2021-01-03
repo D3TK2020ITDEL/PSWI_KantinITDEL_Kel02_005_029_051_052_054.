@@ -1,0 +1,20 @@
+
+.container{
+    width: 30%;
+    margin-top: 9%;
+    box-shadow: 0 3px 20px rgb(0,0,0,0.4);
+    padding: 40px;
+}
+button{
+    width: 49%;
+}
+.btn{
+    color: white;
+}
+body{
+    background: linear-gradient(to right, #426aee, #2b6c97);
+}
+.container{
+    background-color: cornsilk;
+    border-radius: 30px;
+}
